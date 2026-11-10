@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Bastidores de um Festival | D.W.B.D.</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho / Navegação -->
+  <header class="navbar">
+    <div class="logo">Frequência Livre</div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">O Projeto</a></li>
+        <li><a href="#bd">Base de Dados</a></li>
+        <li><a href="#equipa">Equipa</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <span class="badge">Avaliação N.º 2 • D.W.B.D.</span>
+      <h1>NOS BASTIDORES DE UM FESTIVAL</h1>
+      <p>Gestão de programação, artistas e palcos para a Associação Cultural Frequência Livre.</p>
+      <a href="#bd" class="btn">Ver Modelo de Dados</a>
+    </div>
+  </section>
+
+  <!-- Sobre o Projeto -->
+  <section id="sobre" class="section">
+    <h2>Sobre o Projeto</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>O Desafio</h3>
+        <p>Desenvolver uma solução estruturada em Base de Dados para gerir a logística, artistas, horários de atuações e recursos de um festival de música em grande escala.</p>
+      </div>
+      <div class="card">
+        <h3>O Cliente</h3>
+        <p>Associação Cultural Frequência Livre — Entidade responsável pela promoção e dinamização de eventos culturais e festivais de música.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modelo da Base de Dados -->
+  <section id="bd" class="section bg-alt">
+    <h2>Arquitetura da Base de Dados</h2>
+    <div class="grid-3">
+      <div class="card-tech">
+        <h3>Artistas & Bandas</h3>
+        <p>Registo de elementos, géneros musicais, contactos e necessidades técnicas (rider).</p>
+      </div>
+      <div class="card-tech">
+        <h3>Palcos & Horários</h3>
+        <p>Mapeamento de alinhamentos, horários de soundcheck e atuações por palco.</p>
+      </div>
+      <div class="card-tech">
+        <h3>Logística & Staff</h3>
+        <p>Organização das equipas de apoio, credenciação e zonas de acesso reservado.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Identificação Escolar -->
+  <section id="equipa" class="section">
+    <h2>Identificação do Trabalho</h2>
+    <div class="info-box">
+      <p><strong>Curso:</strong> 10.º Técnico de Desenvolvimento de Sistemas</p>
+      <p><strong>Disciplina:</strong> Desenvolvimento Web e Bases de Dados (D.W.B.D.)</p>
+      <p><strong>Professor:</strong> João Baeta</p>
+      <p><strong>Trabalho:</strong> Avaliação N.º 2</p>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2026 Associação Cultural Frequência Livre • Projeto Académico D.W.B.D.</p>
+  </footer>
+
+</body>
+</html>
